@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7BC4138291970370099C2D1 /* SchriftsetzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4137291970370099C2D1 /* SchriftsetzerApp.swift */; };
-		E7BC413A291970370099C2D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4139291970370099C2D1 /* ContentView.swift */; };
 		E7BC413C291970390099C2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BC413B291970390099C2D1 /* Assets.xcassets */; };
 		E7BC413F291970390099C2D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BC413E291970390099C2D1 /* Preview Assets.xcassets */; };
 		E7BC414A291970390099C2D1 /* SchriftsetzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4149291970390099C2D1 /* SchriftsetzerTests.swift */; };
 		E7BC4154291970390099C2D1 /* SchriftsetzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4153291970390099C2D1 /* SchriftsetzerUITests.swift */; };
 		E7BC4156291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4155291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift */; };
+		E7BC4163291970D20099C2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4162291970D20099C2D1 /* AppDelegate.swift */; };
+		E7BC4165291971390099C2D1 /* SchriftsetzerInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4164291971390099C2D1 /* SchriftsetzerInputController.swift */; };
+		E7FA607D291C0A4A00D8255B /* IMIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E7FA607C291C0A4A00D8255B /* IMIcon.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		E7BC4134291970370099C2D1 /* Schriftsetzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schriftsetzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7BC4137291970370099C2D1 /* SchriftsetzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerApp.swift; sourceTree = "<group>"; };
-		E7BC4139291970370099C2D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7BC413B291970390099C2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7BC413E291970390099C2D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7BC4140291970390099C2D1 /* Schriftsetzer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Schriftsetzer.entitlements; sourceTree = "<group>"; };
@@ -45,6 +44,10 @@
 		E7BC414F291970390099C2D1 /* SchriftsetzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchriftsetzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BC4153291970390099C2D1 /* SchriftsetzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerUITests.swift; sourceTree = "<group>"; };
 		E7BC4155291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7BC4162291970D20099C2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BC4164291971390099C2D1 /* SchriftsetzerInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerInputController.swift; sourceTree = "<group>"; };
+		E7FA607C291C0A4A00D8255B /* IMIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = IMIcon.tiff; sourceTree = "<group>"; };
+		E7FA607E291C2FF600D8255B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +98,10 @@
 		E7BC4136291970370099C2D1 /* Schriftsetzer */ = {
 			isa = PBXGroup;
 			children = (
-				E7BC4137291970370099C2D1 /* SchriftsetzerApp.swift */,
-				E7BC4139291970370099C2D1 /* ContentView.swift */,
+				E7FA607E291C2FF600D8255B /* Info.plist */,
+				E7FA607C291C0A4A00D8255B /* IMIcon.tiff */,
+				E7BC4164291971390099C2D1 /* SchriftsetzerInputController.swift */,
+				E7BC4162291970D20099C2D1 /* AppDelegate.swift */,
 				E7BC413B291970390099C2D1 /* Assets.xcassets */,
 				E7BC4140291970390099C2D1 /* Schriftsetzer.entitlements */,
 				E7BC413D291970390099C2D1 /* Preview Content */,
@@ -197,6 +202,7 @@
 				TargetAttributes = {
 					E7BC4133291970370099C2D1 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					E7BC4144291970390099C2D1 = {
 						CreatedOnToolsVersion = 14.1;
@@ -234,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7BC413F291970390099C2D1 /* Preview Assets.xcassets in Resources */,
+				E7FA607D291C0A4A00D8255B /* IMIcon.tiff in Resources */,
 				E7BC413C291970390099C2D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BC413A291970370099C2D1 /* ContentView.swift in Sources */,
-				E7BC4138291970370099C2D1 /* SchriftsetzerApp.swift in Sources */,
+				E7BC4163291970D20099C2D1 /* AppDelegate.swift in Sources */,
+				E7BC4165291971390099C2D1 /* SchriftsetzerInputController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Schriftsetzer/Schriftsetzer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -422,15 +430,17 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Schriftsetzer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schriftsetzer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.invitro.Schriftsetzer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.invitro.inputmethod.Schriftsetzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -440,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Schriftsetzer/Schriftsetzer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -447,13 +458,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Schriftsetzer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schriftsetzer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.invitro.Schriftsetzer;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.invitro.inputmethod.Schriftsetzer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

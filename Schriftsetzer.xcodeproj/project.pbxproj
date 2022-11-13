@@ -14,6 +14,7 @@
 		E7BC4156291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4155291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift */; };
 		E7BC4163291970D20099C2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4162291970D20099C2D1 /* AppDelegate.swift */; };
 		E7BC4165291971390099C2D1 /* SchriftsetzerInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BC4164291971390099C2D1 /* SchriftsetzerInputController.swift */; };
+		E7F667272920FF6600401F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7F667262920FF6600401F71 /* InfoPlist.strings */; };
 		E7FA607D291C0A4A00D8255B /* IMIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E7FA607C291C0A4A00D8255B /* IMIcon.tiff */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		E7BC4155291970390099C2D1 /* SchriftsetzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E7BC4162291970D20099C2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7BC4164291971390099C2D1 /* SchriftsetzerInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchriftsetzerInputController.swift; sourceTree = "<group>"; };
+		E7F667262920FF6600401F71 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		E7FA607C291C0A4A00D8255B /* IMIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = IMIcon.tiff; sourceTree = "<group>"; };
 		E7FA607E291C2FF600D8255B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				E7BC413B291970390099C2D1 /* Assets.xcassets */,
 				E7BC4140291970390099C2D1 /* Schriftsetzer.entitlements */,
 				E7BC413D291970390099C2D1 /* Preview Content */,
+				E7F667262920FF6600401F71 /* InfoPlist.strings */,
 			);
 			path = Schriftsetzer;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7BC413F291970390099C2D1 /* Preview Assets.xcassets in Resources */,
+				E7F667272920FF6600401F71 /* InfoPlist.strings in Resources */,
 				E7FA607D291C0A4A00D8255B /* IMIcon.tiff in Resources */,
 				E7BC413C291970390099C2D1 /* Assets.xcassets in Resources */,
 			);

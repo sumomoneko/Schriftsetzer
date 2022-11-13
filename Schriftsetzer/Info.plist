@@ -14,6 +14,8 @@
 	<string>IMIcon.tiff</string>
 	<key>TISIconIsTemplate</key>
 	<true/>
+	<key>TISIntendedLanguage</key>
+	<string>de</string>
 	<key>tsInputMethodCharacterRepertoireKey</key>
 	<array>
 		<string>Latn</string>

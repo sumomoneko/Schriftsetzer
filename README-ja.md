@@ -54,21 +54,29 @@ macOS で [german-postfix](https://github.com/emacs-mirror/emacs/blob/master/lis
 - macOS 12.6.1
 - intel mac
 
-Appleシリコンでも動作すると思われますが、未確認です。
+Apple シリコンでも動作すると思われますが、未確認です。
 
 ## インストール方法
 
 1. アプリを[ダウンロード](https://github.com/sumomoneko/Schriftsetzer/releases)
 2. `~/ライブラリ/Input Methods` に配置
-3. `システム環境設定 → キーボード → 入力ソース → + ボタン` から `ドイツ語 german-postfix`を追加  
-4. 一旦ログアウトし、ログイン
+3. 本アプリはノータリゼーション (公証) を受けておらず、そのままでは実行できません[^1]。
+   システム保護を回避するため、配置したアプリをコンテキステメニューから開き、ダイアログで「開く」を選択します。(このとき、何も起きません)  
+   s.a. [Mac で App を安全に開く - Apple サポート (日本)](https://support.apple.com/ja-jp/HT202491)  
+   <img src="misc/open_ja.png" width=30% />  
+   <img src="misc/dialog_ja.png" width=30% />
+4. `システム環境設定 → キーボード → 入力ソース → + ボタン` から `ドイツ語 german-postfix`を追加  
+   <img src="misc/input_source_ja.png" width=60% />
 
-<img src="misc/input_source_ja.png" width=60% />
+[^1]:
+    一般に、未署名のプログラムはセキュリティ上危険があります。
+    特に Input Method は、パスワード・暗証番号などを含む全てのキー入力をのぞき見することが出来ます。
+    本プログラムを含め、信頼できない場合はインストールしないでください。
 
 ## ライセンス
 
 - MIT
-- アイコンイメージ:  [UnifrakturMaguntia - Google Fonts](https://fonts.google.com/specimen/UnifrakturMaguntia/about)
+- アイコンイメージ: [UnifrakturMaguntia - Google Fonts](https://fonts.google.com/specimen/UnifrakturMaguntia/about)
 
 ## 参考文献
 

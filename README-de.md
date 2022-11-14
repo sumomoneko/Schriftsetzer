@@ -62,10 +62,20 @@ Das muss mit Apple-Silizium funktioniert, aber das wurde nicht bestätigt.
 
 1. Die App [herunterladen](https://github.com/sumomoneko/Schriftsetzer/releases).
 2. In `~/Library/Input Methods` stellen.
-3. Folgen `Systemeinstellungen -> Tastatur -> Eingabequellen → + Schaltfläche`, und `Deutsch german-postfix` hinzufügen.
-4. Abmelden und wieder anmelden.
+3. Diese App wurde nicht notariell beglaubigt und kann nicht in der vorliegenden Form bearbeitet werden[^1].  
+   Um den Systemschutz zu umgehen, öffnen Sie die eingesetzte App über das Kontextmenü und
+   wählen Sie im Dialogfeld "Öffnen". (zu diesem Zeitpunkt geschieht nichts).  
+   s. [Sicher Apps auf dem Mac öffnen - Apple Support (DE)](https://support.apple.com/de-de/HT202491)  
+   <img src="misc/open_de.png" width=30% />  
+   <img src="misc/dialog_de.png" width=30% />
+4. Folgen `Systemeinstellungen -> Tastatur -> Eingabequellen → + Schaltfläche`, und `Deutsch german-postfix` hinzufügen.
 
 <img src="misc/input_source_de.png" width=60% />
+
+[^1]:
+    Unsignierte Programme stellen im Allgemeinen ein Sicherheitsrisiko dar.
+    Insbesondere kann Eingabemethoden alle Tastenanschläge, einschließlich Passwörter und PINs, ausspähen.
+    Installieren Sie dieses oder ein anderes Programm nicht, wenn Sie ihm nicht vertrauen.
 
 ## Lizenz
 

@@ -4,6 +4,8 @@
 
 # Schriftsetzer
 
+[en] | [[de](README-de.md)] | [[ja](README-ja.md)]
+
 This is an Input Method that implements [german-postfix](https://github.com/emacs-mirror/emacs/blob/master/lisp/leim/quail/latin-post.el#L1148) bindings on macOS.
 
 <img src="misc/demo.gif" width="80%" />

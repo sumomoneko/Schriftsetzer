@@ -4,6 +4,8 @@
 
 # Schriftsetzer
 
+[[en](README.md)] | [[de](README-de.md)] | [ja]
+
 macOS で [german-postfix](https://github.com/emacs-mirror/emacs/blob/master/lisp/leim/quail/latin-post.el#L1148) バインドを実装する Input Method です。
 
 <img src="misc/demo.gif" width="80%" />
@@ -12,7 +14,7 @@ macOS で [german-postfix](https://github.com/emacs-mirror/emacs/blob/master/lis
 
 ## 機能
 
-ドイツ語アルファベット固有の文字とユーロ記号を、以下に示すキーシーケンスで入力出来るようにします。
+ウムラウトやエスツェットなどドイツ語アルファベット固有の文字とユーロ記号を、以下に示すキーシーケンスで入力出来るようにします。
 
 | 入力 | 出力 |
 | ---- | ---- |

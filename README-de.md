@@ -6,6 +6,8 @@
 
 # Schriftsetzer
 
+[[en](README.md)] | [de] | [[ja](README-ja.md)]
+
 Dies ist die Eingabemethode, die die [german-postfix](https://github.com/emacs-mirror/emacs/blob/master/lisp/leim/quail/latin-post.el#L1148)-Bindungen unter macOS implementiert.
 
 <img src="misc/demo.gif" width="80%" />

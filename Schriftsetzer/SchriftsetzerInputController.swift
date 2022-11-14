@@ -144,8 +144,8 @@ let convertTable = [
   "UEE": ("UE", false),
 
   "S": ("S", true),
-  "SZ": ("ẞ", false),
-  "SZZ": ("SZ", true),
+  "SZ": ("ẞ", true),
+  "SZZ": ("SZ", false),
 
   "Q": ("Q", true),
   "Qu": ("Qu", true),

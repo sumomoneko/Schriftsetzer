@@ -73,9 +73,9 @@ Das muss mit Apple-Silizium funktioniert, aber das wurde nicht bestätigt.
 <img src="misc/input_source_de.png" width=60% />
 
 [^1]:
-    Unsignierte Programme stellen im Allgemeinen ein Sicherheitsrisiko dar.
-    Insbesondere kann Eingabemethoden alle Tastenanschläge, einschließlich Passwörter und PINs, ausspähen.
-    Installieren Sie dieses oder ein anderes Programm nicht, wenn Sie ihm nicht vertrauen.
+    Im Allgemeinen stellen Unsignierte Programme ein Sicherheitsrisiko dar.
+    Insbesondere können Eingabemethoden alle Tastenanschläge, einschließlich Passwörter und PINs, ausspähen.
+    Installieren Sie keine App, wenn Sie ihr nicht vertrauen.
 
 ## Lizenz
 

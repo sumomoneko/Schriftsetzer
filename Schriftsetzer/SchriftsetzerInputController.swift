@@ -8,10 +8,6 @@ class SchriftsetzerInputController: IMKInputController {
   let notFound = NSRange(location: NSNotFound, length: NSNotFound)
 
   override func handle(_ event: NSEvent!, client sender: Any!) -> Bool {
-
-    NSLog(
-      "%@", "\(#function)((\(String(describing: event)), client: \(String(describing: sender)))")
-
     // get client to insert
     guard let client = sender as? IMKTextInput else {
       return false
